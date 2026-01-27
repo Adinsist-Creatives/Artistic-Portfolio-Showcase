@@ -19,7 +19,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 
-// Assets
+import logo from "@/assets/logo.png";
 import heroBg from "@/assets/hero-background.png";
 import projectCalligraphy from "@/assets/project-calligraphy.png";
 import projectMural from "@/assets/project-mural.png";
@@ -117,8 +117,11 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-6 md:px-12 mix-blend-difference text-white">
         <Link href="/">
-          <a className="text-2xl font-serif font-bold tracking-tighter hover:opacity-70 transition-opacity">
-            ALEXIS.ART
+          <a className="flex items-center gap-3 hover:opacity-70 transition-opacity">
+            <img src={logo} alt="Logo" className="w-8 h-8 invert" />
+            <span className="text-2xl font-serif font-bold tracking-tighter">
+              ALEXIS.ART
+            </span>
           </a>
         </Link>
         
