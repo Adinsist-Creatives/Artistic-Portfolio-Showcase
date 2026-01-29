@@ -146,7 +146,7 @@ export default function Home() {
                   "text-2xl font-serif font-bold tracking-tighter transition-colors duration-500",
                   scrolled ? "text-foreground" : "text-white"
               )}>
-              ADINSIST.CREATIVES
+              Adinsist . Creatives
             </span>
             </a>
           </Link>
