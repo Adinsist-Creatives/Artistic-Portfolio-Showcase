@@ -334,7 +334,7 @@ export default function Home() {
               <a href="#" className="hover:text-white transition-colors">Behance</a>
               <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
             </div>
-            <p>&copy; 2026 Alexis Design. All Rights Reserved.</p>
+            <p>&copy; 2026 Adinsist Creatives Design . All Rights Reserved.</p>
           </div>
         </div>
       </section>
