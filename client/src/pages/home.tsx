@@ -120,7 +120,7 @@ export default function Home() {
           <a className="flex items-center gap-3 hover:opacity-70 transition-opacity">
             <img src={logo} alt="Logo" className="w-8 h-8 invert" />
             <span className="text-2xl font-serif font-bold tracking-tighter">
-              ALEXIS.ART
+              Adinsist.Creatives
             </span>
           </a>
         </Link>
